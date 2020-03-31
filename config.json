@@ -1,0 +1,12 @@
+{
+  "model_kwargs": {
+    "model_type": "fc_model",
+    "dropout_rate": 0.8
+  },
+  "data_loader_args": {
+    "use_yahoo": true,
+    "use_reddit": false,
+    "split_sizes": [0.2, 0.5],
+    "split_seeds": [0, 0]
+  }
+}
